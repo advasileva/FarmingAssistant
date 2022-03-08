@@ -1,0 +1,111 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:custom="clr-namespace:App1"
+             Shell.NavBarIsVisible="False"
+             xmlns:vm="clr-namespace:App1.ViewModels"
+             x:Class="App1.Views.RegistrationPage" BackgroundColor="White">
+
+    <ContentPage.BindingContext>
+        <vm:RegistrationViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.042*"/>
+                    <RowDefinition Height="0.07*"/>
+                    <RowDefinition Height="0.092*"/>
+                    <RowDefinition Height="0.075*"/>
+                    <RowDefinition Height="0.005*"/>
+                    <RowDefinition Height="0.075*"/>
+                    <RowDefinition Height="0.042*"/>
+                    <RowDefinition Height="0.075*"/>
+                    <RowDefinition Height="0.005*"/>
+                    <RowDefinition Height="0.075*"/>
+                    <RowDefinition Height="0.005*"/>
+                    <RowDefinition Height="0.075*"/>
+                    <RowDefinition Height="0.042*"/>
+                    <RowDefinition Height="0.086*"/>
+                    <RowDefinition Height="0.267*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.07*"/>
+                    <ColumnDefinition Width="0.86*"/>
+                    <ColumnDefinition Width="0.07*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Label Text="Регистрация" 
+                       Grid.Column="1" Grid.Row="1" 
+                       FontSize="34" 
+                       VerticalOptions="Center"
+                       TextColor="Black" 
+                       HorizontalTextAlignment="Center" 
+                       FontAttributes="Bold"/>
+                
+                <custom:CustomEntry x:Name="NameEntry" 
+                                    Grid.Column="1" Grid.Row="3" 
+                                    Placeholder="Имя" 
+                                    PlaceholderColor="#C4C4C4" 
+                                    CornerRadius ="25" FontSize="16" 
+                                    FontFamily="SF-Pro-Text-Bold.otf"
+                                    HorizontalTextAlignment="Center" 
+                                    BackgroundColor="White"
+                                    IsCurvedCornersEnabled="True"/>
+                
+                <custom:CustomEntry x:Name="SurnameEntry" 
+                                    Grid.Column="1" Grid.Row="5" 
+                                    Placeholder="Фамилия" 
+                                    PlaceholderColor="#C4C4C4" 
+                                    CornerRadius ="25" FontSize="16" 
+                                    FontFamily="SF-Pro-Text-Bold.otf"
+                                    HorizontalTextAlignment="Center" 
+                                    BackgroundColor="White"
+                                    IsCurvedCornersEnabled="True"/>
+                
+                <custom:CustomEntry x:Name="LoginEntry2" 
+                                    Grid.Column="1" Grid.Row="7" 
+                                    Placeholder="Email или телефон" 
+                                    PlaceholderColor="#C4C4C4" 
+                                    CornerRadius ="25" 
+                                    FontSize="16" 
+                                    FontFamily="SF-Pro-Text-Bold.otf"
+                                    HorizontalTextAlignment="Center" 
+                                    BackgroundColor="White"
+                                    IsCurvedCornersEnabled="True"/>
+                
+                <custom:CustomEntry x:Name="PasswordEntry1" 
+                                    Grid.Column="1" Grid.Row="9" 
+                                    Placeholder="Пароль" 
+                                    PlaceholderColor="#C4C4C4" 
+                                    CornerRadius ="25" FontSize="16" 
+                                    FontFamily="SF-Pro-Text-Bold.otf"
+                                    HorizontalTextAlignment="Center" 
+                                    BackgroundColor="White" 
+                                    IsPassword="True"
+                                    IsCurvedCornersEnabled="True"/>
+                
+                <custom:CustomEntry x:Name="PasswordEntry2" 
+                                    Grid.Column="1" Grid.Row="11" 
+                                    Placeholder="Подтвердите пароль" 
+                                    PlaceholderColor="#C4C4C4" 
+                                    CornerRadius ="25" 
+                                    FontSize="16" 
+                                    FontFamily="SF-Pro-Text-Bold.otf"
+                                    HorizontalTextAlignment="Center" 
+                                    BackgroundColor="White" 
+                                    IsPassword="True"
+                                    IsCurvedCornersEnabled="True"/>
+                
+                <Button x:Name="SignUpButton2" 
+                        Text="Зарегистрироваться" 
+                        TextColor="White" 
+                        BackgroundColor="#4C52E7"
+                        CornerRadius="25" 
+                        Grid.Column="1" Grid.Row="13" 
+                        Command="{Binding RegisterCommand}"
+                        FontFamily="SF-Pro-Text-Bold.otf" 
+                        FontSize="14" FontAttributes="Bold"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

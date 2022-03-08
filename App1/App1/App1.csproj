@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+	<LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\SF-Pro-Text-Bold.otf" />
+    <None Remove="Icons\carrot.png" />
+    <None Remove="Icons\corn.png" />
+    <None Remove="Icons\grass.png" />
+    <None Remove="Icons\NotificationsIcon.png" />
+    <None Remove="Icons\plant.png" />
+    <None Remove="Icons\potatoes.png" />
+    <None Remove="Icons\shovel.png" />
+    <None Remove="Icons\tomato.png" />
+    <None Remove="Icons\wateringCan.png" />
+    <None Remove="LoginIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\SF-Pro-Text-Bold.otf" />
+    <EmbeddedResource Include="Icons\carrot.png" />
+    <EmbeddedResource Include="Icons\corn.png" />
+    <EmbeddedResource Include="Icons\grass.png" />
+    <EmbeddedResource Include="Icons\LoginIcon.png" />
+    <EmbeddedResource Include="Icons\MainIcon.png" />
+    <EmbeddedResource Include="Icons\NotificationsIcon.png" />
+    <EmbeddedResource Include="Icons\plant.png" />
+    <EmbeddedResource Include="Icons\potatoes.png" />
+    <EmbeddedResource Include="Icons\shovel.png" />
+    <EmbeddedResource Include="Icons\tomato.png" />
+    <EmbeddedResource Include="Icons\wateringCan.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="6.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AddFieldPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FieldSettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FieldsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RegistrationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\WeatherPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
