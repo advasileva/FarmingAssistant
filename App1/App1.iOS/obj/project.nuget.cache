@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+uO8/Z1azHZJ+8wSBNCyak2OWc+vFaazrcfMQkMXVtTDyo1o/TXams/FwtC+g2OWjTBUIHkjm50diNwN6x6+Rg==",
+  "dgSpecHash": "QPMjVqwHJdHH2+aVQmeNBmmrKpwbV4NHIzMJ+W/NbseIH9x+pud1rz33LVqtHB2NbKtjqsnYD7LqNRnuPElofw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\App1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\App1.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Egor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Egor\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

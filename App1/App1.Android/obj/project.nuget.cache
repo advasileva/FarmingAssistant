@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+bLMLy9vlar9YOWAdnD5kzQr0hChJwfsR9BQEvcr9zu7anfeujwJU0Vu8+/Pg+QjmAcs2C6MyHrFsdDit54jg==",
+  "dgSpecHash": "ShRkHcUP0tDD2sPcO3Prw9c6HzC9M6HEwxvmjjquiMeovcPejHBgR0dWgRMpw+tbKHEjBr4aW0qruvVdhew9rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Egor\\Desktop\\App1\\App1.Android\\App1.Android.csproj",
+  "projectFilePath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.Android\\App1.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Egor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Egor\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

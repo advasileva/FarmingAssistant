@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\App1.iOS.csproj": {}
+    "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\App1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\App1.iOS.csproj": {
+    "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\App1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\App1.iOS.csproj",
         "projectName": "App1.iOS",
-        "projectPath": "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectPath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\App1.iOS.csproj",
         "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Egor\\Desktop\\App1\\App1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Egor\\Desktop\\App1\\App1\\App1.csproj": {
-                "projectPath": "C:\\Users\\Egor\\Desktop\\App1\\App1\\App1.csproj"
+              "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\App1.csproj": {
+                "projectPath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\App1.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Egor\\Desktop\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Egor\\Desktop\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\Egor\\Desktop\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Egor\\Desktop\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\Egor\\Desktop\\FCA\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Egor\\AppData\\Roaming\\NuGet\\NuGet.Config",
