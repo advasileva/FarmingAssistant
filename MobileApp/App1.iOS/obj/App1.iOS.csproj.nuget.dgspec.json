@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.iOS\\App1.iOS.csproj": {}
+    "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.iOS\\App1.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.iOS\\App1.iOS.csproj": {
+    "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.iOS\\App1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectUniqueName": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.iOS\\App1.iOS.csproj",
         "projectName": "App1.iOS",
-        "projectPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.iOS\\App1.iOS.csproj",
+        "projectPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.iOS\\App1.iOS.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.iOS\\obj\\",
+        "outputPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj": {
-                "projectPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj"
+              "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj": {
+                "projectPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj": {
+    "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj",
+        "projectPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\obj\\",
+        "outputPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

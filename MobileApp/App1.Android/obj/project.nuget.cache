@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zvlFHEld/vcj9clhVvYqlk6jTKpA2docdr4gTVUhZFw1MKqaRuhTM9Lc3oln3ma+Yxfrv5GKnLXFEHfz9Mdppg==",
+  "dgSpecHash": "pibccnFqfO3hQEBPpcVEDKyVikvojRd4efBfl5Gu/MeRX78X8mqvJlwtWZP5mch/mZxqCY4cj6alS5TuSB+06w==",
   "success": true,
-  "projectFilePath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.Android\\App1.Android.csproj",
+  "projectFilePath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.Android\\App1.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\acr.userdialogs\\7.2.0.562\\acr.userdialogs.7.2.0.562.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\andhud\\1.4.3\\andhud.1.4.3.nupkg.sha512",

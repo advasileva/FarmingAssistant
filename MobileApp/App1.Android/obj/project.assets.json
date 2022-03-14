@@ -3858,11 +3858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.Android\\App1.Android.csproj",
+      "projectPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.Android\\App1.Android.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1.Android\\obj\\",
+      "outputPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3883,8 +3883,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj": {
-              "projectPath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj"
+            "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj": {
+              "projectPath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj"
             }
           }
         }

@@ -1,0 +1,4 @@
+* linguist-vendored
+*.cs linguist-vendored=false
+*.ipynb linguist-vendored=false
+*.py linguist-vendored=false

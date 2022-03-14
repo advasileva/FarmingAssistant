@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VseJc2U6jke6rFvwuSvrLfE8GRLLrJMRYAUg0K3o05IwpbqLC0gjvu1QwsWZDSFWypU7erKCztw4pZgNaViHYA==",
+  "dgSpecHash": "1HFOkWCOg4ddzoMQB3j1zee+o71CKHYO89lKYBSWcgdbEwwB5KEYfei2bg6RjRMafO3IDpbmGgMkGqpm/hKlSw==",
   "success": true,
-  "projectFilePath": "D:\\Development\\Xamarin\\FarmerCyberAssistant\\App1\\App1\\App1.csproj",
+  "projectFilePath": "D:\\Development\\Projects\\FarmerCyberAssistant\\MobileApp\\App1\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\acr.userdialogs\\7.2.0.562\\acr.userdialogs.7.2.0.562.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
