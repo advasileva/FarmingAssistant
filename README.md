@@ -389,5 +389,4 @@ docker run -d -p 80:8000 axhse/farming-assistant-server
 
 Направления дальнейшей разработки
 === 
-
-**РОАДМАПЫ**
+[Roadmap](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/roadmap1.png)
