@@ -64,6 +64,7 @@
                                                     PlaceholderColor="Black"
                                                     CornerRadius ="25" 
                                                     FontSize="21"   
+                                                    WidthRequest="250"
                                                     BorderColor="#F5F5FF"
                                                     Margin="10, 0, 0, 0"
                                                     HorizontalTextAlignment="Center"

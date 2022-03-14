@@ -15,7 +15,7 @@ namespace App1.ViewModels
 
         public MainViewModel()
         {
-            LoadRecommendationsCommand = new Command(async () => await LoadRecommendations(), () => !IsBusy);
+            LoadRecommendationsCommand = new Command(async () => await LoadRecommendations());
             DetailedField.OnLoadRecommendations += CurrentAccount.LoadRecommendations;
             DetailedField.OnGetRecommendations += CurrentAccount.GetRecommendations;
             DetailedField.OnGiveFeedback += GiveFeedback;
@@ -47,7 +47,7 @@ namespace App1.ViewModels
         private async Task LoadRecommendations()
         {
             fields = DetailedField.GetDetailedField(CurrentAccount.CustomerInfo.Fields);
-            System.Diagnostics.Debug.WriteLine("Loaded " + fields[0].FieldItem.Name);
+            IsBusy = false;
             OnPropertyChanged(nameof(Fields));
         }
 

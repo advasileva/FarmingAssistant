@@ -49,80 +49,80 @@
 	.section	.rodata.map_aname.8,"aMS",%progbits,1
 	.type	.L.map_aname.8, %object
 .L.map_aname.8:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	.L.map_aname.8, 26
+	.asciz	"App1.Android"
+	.size	.L.map_aname.8, 13
 
 	.section	.rodata.map_aname.9,"aMS",%progbits,1
 	.type	.L.map_aname.9, %object
 .L.map_aname.9:
-	.asciz	"Xamarin.Essentials"
-	.size	.L.map_aname.9, 19
+	.asciz	"Xamarin.AndroidX.Activity"
+	.size	.L.map_aname.9, 26
 
 	.section	.rodata.map_aname.10,"aMS",%progbits,1
 	.type	.L.map_aname.10, %object
 .L.map_aname.10:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	.L.map_aname.10, 28
+	.asciz	"Xamarin.Essentials"
+	.size	.L.map_aname.10, 19
 
 	.section	.rodata.map_aname.11,"aMS",%progbits,1
 	.type	.L.map_aname.11, %object
 .L.map_aname.11:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	.L.map_aname.11, 30
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	.L.map_aname.11, 28
 
 	.section	.rodata.map_aname.12,"aMS",%progbits,1
 	.type	.L.map_aname.12, %object
 .L.map_aname.12:
-	.asciz	"Xamarin.AndroidX.CardView"
-	.size	.L.map_aname.12, 26
+	.asciz	"Xamarin.AndroidX.RecyclerView"
+	.size	.L.map_aname.12, 30
 
 	.section	.rodata.map_aname.13,"aMS",%progbits,1
 	.type	.L.map_aname.13, %object
 .L.map_aname.13:
-	.asciz	"Acr.UserDialogs"
-	.size	.L.map_aname.13, 16
+	.asciz	"Xamarin.AndroidX.CardView"
+	.size	.L.map_aname.13, 26
 
 	.section	.rodata.map_aname.14,"aMS",%progbits,1
 	.type	.L.map_aname.14, %object
 .L.map_aname.14:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
-	.size	.L.map_aname.14, 30
+	.asciz	"Acr.UserDialogs"
+	.size	.L.map_aname.14, 16
 
 	.section	.rodata.map_aname.15,"aMS",%progbits,1
 	.type	.L.map_aname.15, %object
 .L.map_aname.15:
-	.asciz	"Xamarin.GooglePlayServices.Tasks"
-	.size	.L.map_aname.15, 33
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	.L.map_aname.15, 30
 
 	.section	.rodata.map_aname.16,"aMS",%progbits,1
 	.type	.L.map_aname.16, %object
 .L.map_aname.16:
-	.asciz	"Xamarin.GooglePlayServices.Maps"
-	.size	.L.map_aname.16, 32
+	.asciz	"Xamarin.GooglePlayServices.Tasks"
+	.size	.L.map_aname.16, 33
 
 	.section	.rodata.map_aname.17,"aMS",%progbits,1
 	.type	.L.map_aname.17, %object
 .L.map_aname.17:
-	.asciz	"Xamarin.GooglePlayServices.Basement"
-	.size	.L.map_aname.17, 36
+	.asciz	"Xamarin.GooglePlayServices.Maps"
+	.size	.L.map_aname.17, 32
 
 	.section	.rodata.map_aname.18,"aMS",%progbits,1
 	.type	.L.map_aname.18, %object
 .L.map_aname.18:
-	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
-	.size	.L.map_aname.18, 40
+	.asciz	"Xamarin.GooglePlayServices.Basement"
+	.size	.L.map_aname.18, 36
 
 	.section	.rodata.map_aname.19,"aMS",%progbits,1
 	.type	.L.map_aname.19, %object
 .L.map_aname.19:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.19, 41
+	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
+	.size	.L.map_aname.19, 40
 
 	.section	.rodata.map_aname.20,"aMS",%progbits,1
 	.type	.L.map_aname.20, %object
 .L.map_aname.20:
-	.asciz	"App1.Android"
-	.size	.L.map_aname.20, 13
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.20, 41
 
 	.section	.rodata.map_aname.21,"aMS",%progbits,1
 	.type	.L.map_aname.21, %object

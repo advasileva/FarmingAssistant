@@ -1,5 +1,5 @@
 IsIncrementalBuild=false
-IsLocal=False
+IsLocal=True
 EnableLLVM=False
 UseConcurrentGC=true
 LinkerBehavior=None
