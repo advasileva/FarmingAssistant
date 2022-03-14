@@ -1181,3 +1181,10 @@ D:\Development\Projects\FarmerCyberAssistant\MobileApp\App1.Android\obj\Release\
 D:\Development\Projects\FarmerCyberAssistant\MobileApp\App1.Android\obj\Release\120\stamp\_GenerateJavaStubs.stamp
 D:\Development\Projects\FarmerCyberAssistant\MobileApp\App1.Android\obj\Release\120\stamp\_GeneratePackageManagerJava.stamp
 D:\Development\Projects\FarmerCyberAssistant\MobileApp\App1.Android\obj\Release\120\stamp\_ResolveLibraryProjectImports.stamp
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\App1.Android.dll
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\App1.Android.pdb
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\com.companyname.App1.apk
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\com.companyname.App1.aab
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\com.companyname.App1-Signed.aab
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\com.companyname.App1-Signed.apk
+D:\Development\Xamarin\Archives\com.companyname.App1.apk.mSYM\com.companyname.App1-Signed.apk.idsig
