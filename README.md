@@ -365,7 +365,7 @@ Use Cases
 Docker и Azure
 ---
 Северная часть приложения упакована в Docker. [Актуальный образ](https://hub.docker.com/repository/docker/axhse/farming-assistant-server).  
-Для сборки используется [данный Dockerfile](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/axhse/server/Dockerfile).  
+Для сборки используется [данный Dockerfile](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/server/Dockerfile).  
 
 Контейнер-сервер запущен на виртуальной машине Azure и взаимодействует с базой данных Azure SQL по виртуальной сети.  
 
@@ -379,9 +379,9 @@ docker run -d -p 80:8000 axhse/farming-assistant-server
 ```
 Все ключи доступа и некоторые константы хранятся в переменных окружения.  
 Для их быстрой инициализации вы можете использовать .env файл при сборке Docker-образа. Шаблон файла:
-[.env.example](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/axhse/server/.env.example).  
+[.env.example](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/server/.env.example).  
 Вам также потребуется настроить базу данных SQL. Для создания соответствующих таблиц вы можете использовать
-[SQL-запрос](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/axhse/init_database.sql).
+[SQL-запрос](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/init_database.sql).
 
 Демонстрация решения
 === 
