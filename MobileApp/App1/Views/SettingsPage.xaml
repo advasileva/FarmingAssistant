@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             xmlns:vm="clr-namespace:App1.ViewModels"
+             x:Class="App1.Views.SettingsPage"
+             BackgroundColor="White">
+
+    <ContentPage.BindingContext>
+        <vm:SettingsViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20">
+            <Label Text="Настройки" TextColor="Black"
+                   Margin="0,37,0,10"
+                   FontSize="34" FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+
+            <Frame Margin="20,0,20,0"
+                   HasShadow="False"
+                   CornerRadius="15"
+                   Padding="10,5,0,5"
+                   BackgroundColor="{StaticResource BrightBlue}">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="User.png" WidthRequest="50"/>
+                    <Label Text="{Binding CurrentAccount.Username}"
+                           VerticalOptions="Center"
+                           TextColor="White"
+                           FontSize="17"/>
+                </StackLayout>
+            </Frame>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.04*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="Notification.png" WidthRequest="25"/>
+                    <Label Text="Уведомления" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Image Source="Chevron.png" 
+                           WidthRequest="15" Grid.Column="1"/>
+            </Grid>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.04*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="Subscribe.png" WidthRequest="25"/>
+                    <Label Text="Управление подпиской" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Image Source="Chevron.png" 
+                           WidthRequest="15" Grid.Column="1"/>
+            </Grid>
+            
+            <BoxView HorizontalOptions="FillAndExpand"
+                     Margin="20, -10"
+                     HeightRequest="1" 
+                     Color="#E6D7FE"/>
+            
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.04*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="SignIn.png" WidthRequest="25"/>
+                    <Label Text="Безопасность и вход" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Image Source="Chevron.png" 
+                           WidthRequest="15" Grid.Column="1"/>
+            </Grid>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="PinCode.png" WidthRequest="25"/>
+                    <Label Text="Вход по PIN-коду" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Switch Grid.Column="1" OnColor="#E6D7FE" 
+                        ThumbColor="White"
+                        IsToggled="True"/>
+            </Grid>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="TouchId.png" WidthRequest="25"/>
+                    <Label Text="Touch ID" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Switch Grid.Column="1" OnColor="#E6D7FE" 
+                        ThumbColor="White"
+                        IsToggled="False"/>
+            </Grid>
+
+            <BoxView HorizontalOptions="FillAndExpand"
+                     Margin="20, -10"
+                     HeightRequest="1" 
+                     Color="#E6D7FE"/>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="Palette.png" WidthRequest="25"/>
+                    <Label Text="Светлая цветовая тема" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <Switch Grid.Column="1" OnColor="#E6D7FE" 
+                        ThumbColor="White"
+                        IsToggled="True"/>
+            </Grid>
+
+            <BoxView HorizontalOptions="FillAndExpand"
+                     Margin="20, -10"
+                     HeightRequest="1" 
+                     Color="#E6D7FE"/>
+            
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.04*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="AboutUs.png" WidthRequest="25"/>
+                    <Label Text="О приложении" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <ImageButton Source="Chevron.png" 
+                           WidthRequest="15" Grid.Column="1" 
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="FillAndExpand"
+                           BackgroundColor="White"
+                           Command="{Binding AboutAppCommand}"/>
+            </Grid>
+
+            <Grid Margin="0,0,30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.04*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Horizontal" Spacing="10"
+                         Margin="40,0" HorizontalOptions="Start">
+                    <Image Source="email.png" WidthRequest="25"/>
+                    <Label Text="Почта разработчиков" TextColor="Black"
+                       FontSize="15"/>
+                </StackLayout>
+                <ImageButton Source="Chevron.png" 
+                           WidthRequest="15" Grid.Column="1"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="FillAndExpand"
+                           BackgroundColor="White"
+                           Command="{Binding EmailCommand}"/>
+            </Grid>
+
+            <BoxView HorizontalOptions="FillAndExpand"
+                     Margin="20, -10"
+                     HeightRequest="1" 
+                     Color="#E6D7FE"/>
+
+            <Label Text="Выйти" TextColor="#F13D3D" FontSize="15" 
+                   Margin="40,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ExitCommand}" />
+                </Label.GestureRecognizers>
+            </Label>   
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

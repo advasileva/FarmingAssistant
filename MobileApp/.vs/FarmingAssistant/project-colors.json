@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dc2c9e54-746a-4c7c-bb7a-1ae179c69cf7": {
+      "ProjectGuid": "dc2c9e54-746a-4c7c-bb7a-1ae179c69cf7",
+      "DisplayName": "App1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "cfdad45c-220e-4f9a-9203-11fc27d48ad4": {
+      "ProjectGuid": "cfdad45c-220e-4f9a-9203-11fc27d48ad4",
+      "DisplayName": "App1.Android",
+      "ColorIndex": 1
+    },
+    "ce4766dd-cc2d-4600-b402-f9c5cbe21bc2": {
+      "ProjectGuid": "ce4766dd-cc2d-4600-b402-f9c5cbe21bc2",
+      "DisplayName": "App1.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

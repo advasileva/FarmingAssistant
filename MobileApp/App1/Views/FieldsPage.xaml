@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App1.ViewModels"
+             xmlns:custom="clr-namespace:App1"
+             xmlns:converters="clr-namespace:App1.Converters"
+             xmlns:models="clr-namespace:App.Models"
+             xmlns:maps ="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             Shell.NavBarIsVisible="False"
+             x:Class="App1.Views.FieldsPage">
+
+    <ContentPage.BindingContext>
+        <vm:FieldsViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <converters:PlantIconConverter x:Key="plantIconConverter"/>
+        <converters:PlantsEnumConverter x:Key="plantEnumConverter"/>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="White" IsEnabled="False">
+            <StackLayout Spacing="20">
+
+                <Label Text="Поля" 
+                           FontSize="34"
+                           Margin="0,35,0,0"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+
+                <Frame BorderColor="#686464"
+                       Margin="20,0"
+                       Grid.Row="1"
+                       Padding="5"
+                       HasShadow="True"
+                       CornerRadius="25">
+
+                    <Picker TextColor="Black" 
+                            FontSize="17"
+                            x:Name="MainPicker"
+                            Opacity="0.7"
+                            ItemsSource= "{Binding BindingFields, Mode=TwoWay}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="{Binding SelectedField}"
+                            HorizontalTextAlignment="Center"
+                            TitleColor="#C4C4C4"
+                            
+                            Title="Выберите поле"/>
+                </Frame>
+
+                <StackLayout>
+                    <Frame BackgroundColor="{StaticResource LightBlue}" 
+                                           BorderColor="#F0F0F0" 
+                                           CornerRadius="40"
+                                           Padding="-15" Margin="10,0,10,0" 
+                                           HasShadow="False">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" 
+                                                     Margin="0,10">
+
+                                <custom:CustomEntry x:Name="FieldName"
+                                                    Text="{Binding SelectedField.Name}"
+                                                    PlaceholderColor="Black"
+                                                    CornerRadius ="25" 
+                                                    FontSize="21"   
+                                                    BorderColor="#F5F5FF"
+                                                    Margin="10, 0, 0, 0"
+                                                    HorizontalTextAlignment="Center"
+                                                    BackgroundColor="#F5F5FF" 
+                                                    IsCurvedCornersEnabled="True"/>
+
+                            </StackLayout>
+                            <Grid HorizontalOptions="Center" Margin="0,-10,30,10" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1"></ColumnDefinition>
+                                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Frame Margin="30,0,10,0"                                               
+                                       Padding="20,0"
+                                       HasShadow="False"
+                                       CornerRadius="25"
+                                       Grid.Column="1">
+                                    <Picker TextColor="Black" 
+                                            FontSize="15"
+                                            x:Name="FieldsPicker"
+                                            Opacity="0.7"
+                                            ItemsSource="{Binding BindingPlants}"
+                                            SelectedItem="{Binding SelectedField.Plant}"
+                                            HorizontalTextAlignment="Start"
+                                            TitleColor="#C4C4C4"
+                                            Title="Выберите культуру"/>
+                                </Frame>
+                                <Frame Grid.Column="2"                                           
+                                        CornerRadius="30" HasShadow="False" Margin="5, 0, 0, 0">
+                                    <Image Source="{Binding SelectedField.Plant, Converter={StaticResource plantIconConverter}}"
+                                                   WidthRequest="10" Scale="3"/>
+                                </Frame>
+                            </Grid>
+
+                            <StackLayout  Margin="30, 0, 30, 30">
+                                <Frame BackgroundColor="Blue"
+                                               CornerRadius="40"
+                                               HeightRequest="250"
+                                               Padding="-2">
+                                    <maps:Map x:Name="FieldMap" IsShowingUser="True" />
+                                </Frame>
+                                <Grid HorizontalOptions="CenterAndExpand" Padding="-2" Margin="0,10,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button x:Name="AddFieldButton" Grid.Column="2"
+                                                       Text="Добавить" 
+                                                       HorizontalOptions="Fill"
+                                                       TextColor="White"
+                                                        Command="{Binding CreateFieldCommand}"
+                                                       BackgroundColor="{StaticResource MediumBlue}" 
+                                                       FontSize="12" 
+                                                       FontAttributes="Bold" 
+                                                       CornerRadius="25"/>
+                                    <Button x:Name="SaveFieldButton" Grid.Column="3"
+                                                       Text="Сохранить" 
+                                                       HorizontalOptions="Fill"
+                                                       TextColor="White"
+                                                        Command="{Binding UpdateFieldCommand}"
+                                                       BackgroundColor="{StaticResource MediumBlue}" 
+                                                       FontSize="12" 
+                                                       FontAttributes="Bold" 
+                                                       CornerRadius="25"/>
+                                    <Button x:Name="DeleteFieldButton" Grid.Column="1"
+                                                       Text="Удалить" 
+                                                       HorizontalOptions="Fill"
+                                                       TextColor="White"
+                                                       Command="{Binding DeleteFieldCommand}"
+                                                       BackgroundColor="{StaticResource MediumBlue}" 
+                                                       FontSize="12" 
+                                                       FontAttributes="Bold" 
+                                                       CornerRadius="25"/>
+                                </Grid>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <Label FontSize="10"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

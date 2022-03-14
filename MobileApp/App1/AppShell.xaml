@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       FlyoutBehavior="Disabled"
+       xmlns:local="clr-namespace:App1.Views"
+       x:Class="App1.AppShell">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="#F7F7F7"/>
+                <Setter Property="Shell.DisabledColor" Value = "Black"/>
+                <Setter Property="Shell.ForegroundColor" Value="Black"/>
+                <Setter Property="Shell.TitleColor" Value="{StaticResource BrightBlue}"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <ShellItem Route="login">
+        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}"/>
+    </ShellItem>
+
+    <TabBar Route="main">
+        <Tab Title="Главная" Icon="Main.png" >
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+        <Tab Title="Погода" Icon="Clouds.png" >
+            <ShellContent ContentTemplate="{DataTemplate local:WeatherPage}"/>
+        </Tab>
+        <Tab Title="Поля" Icon="Fields.png" >
+            <ShellContent ContentTemplate="{DataTemplate local:FieldsPage}"/>
+        </Tab>
+        <Tab Title="Настройки" Icon="Settings.png" >
+            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

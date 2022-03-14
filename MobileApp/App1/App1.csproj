@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+	<LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AssemblyInfo.cs" />
+    <Compile Remove="Models\CryptoUtils.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\SF-Pro-Text-Bold.otf" />
+    <None Remove="Icons\background.jpg" />
+    <None Remove="Icons\carrot.png" />
+    <None Remove="Icons\Cloudy.png" />
+    <None Remove="Icons\corn.png" />
+    <None Remove="Icons\grass.png" />
+    <None Remove="Icons\Menu.png" />
+    <None Remove="Icons\Moon.png" />
+    <None Remove="Icons\NotificationsIcon.png" />
+    <None Remove="Icons\PartlyCloudy.png" />
+    <None Remove="Icons\plant.png" />
+    <None Remove="Icons\potatoes.png" />
+    <None Remove="Icons\Rain.png" />
+    <None Remove="Icons\shovel.png" />
+    <None Remove="Icons\Snow.png" />
+    <None Remove="Icons\Sunny.png" />
+    <None Remove="Icons\tomato.png" />
+    <None Remove="Icons\wateringCan.png" />
+    <None Remove="Icons\Wind.png" />
+    <None Remove="LoginIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AssemblyInfo.cs" />
+    <EmbeddedResource Include="Fonts\SF-Pro-Text-Bold.otf" />
+    <EmbeddedResource Include="Icons\background.jpg" />
+    <EmbeddedResource Include="Icons\carrot.png" />
+    <EmbeddedResource Include="Icons\Cloudy.png" />
+    <EmbeddedResource Include="Icons\corn.png" />
+    <EmbeddedResource Include="Icons\grass.png" />
+    <EmbeddedResource Include="Icons\LoginIcon.png" />
+    <EmbeddedResource Include="Icons\MainIcon.png" />
+    <EmbeddedResource Include="Icons\Menu.png" />
+    <EmbeddedResource Include="Icons\Moon.png" />
+    <EmbeddedResource Include="Icons\NotificationsIcon.png" />
+    <EmbeddedResource Include="Icons\PartlyCloudy.png" />
+    <EmbeddedResource Include="Icons\plant.png" />
+    <EmbeddedResource Include="Icons\potatoes.png" />
+    <EmbeddedResource Include="Icons\Rain.png" />
+    <EmbeddedResource Include="Icons\shovel.png" />
+    <EmbeddedResource Include="Icons\Snow.png" />
+    <EmbeddedResource Include="Icons\Sunny.png" />
+    <EmbeddedResource Include="Icons\tomato.png" />
+    <EmbeddedResource Include="Icons\wateringCan.png" />
+    <EmbeddedResource Include="Icons\Wind.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.2.0.562" />
+    <PackageReference Include="Mono.Cecil" Version="0.11.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Text.Json" Version="6.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />  
+    <PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.2337" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\FieldsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RegistrationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\WeatherPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
