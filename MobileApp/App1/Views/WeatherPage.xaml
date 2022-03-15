@@ -150,7 +150,7 @@
 
                         <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
 
-                            <Label Text="1028 мбар" 
+                            <Label Text="1028 мб" 
                                TextColor="Black" 
                                FontSize="14" 
                                FontAttributes="Bold" 
