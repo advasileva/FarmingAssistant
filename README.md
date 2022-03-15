@@ -33,9 +33,11 @@
 
 **Описание доменной области**
 ===
+![domain](https://github.com/fodof91/FarmerCyberAssistant/domain.md)
 
 Use Cases 
 ===
+![use-cases](https://github.com/fodof91/FarmerCyberAssistant/use-cases.md)
 
 Функциональные и нефункциональные требования 
 ===
