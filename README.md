@@ -33,11 +33,11 @@
 
 **Описание доменной области**
 ===
-[про описание доменной области можно прочитать здесь](https://github.com/fodof91/FarmerCyberAssistant/blob/main/domain.md)
+[про описание доменной области можно прочитать здесь](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/domain.md)
 
 Use Cases 
 ===
-[про описание Use Cases можно прочитать здесь](https://github.com/fodof91/FarmerCyberAssistant/blob/main/use-cases.md)
+[про описание Use Cases можно прочитать здесь](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/use-cases.md)
 
 Функциональные и нефункциональные требования 
 ===
