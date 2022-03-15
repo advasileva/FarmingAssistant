@@ -387,6 +387,10 @@ docker run -d -p 80:8000 axhse/farming-assistant-server
 Демонстрация решения
 === 
 
+![SignUp](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/signup.jpg)
+![SignIn](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/signin.jpg)
+
 Направления дальнейшей разработки
 === 
-[!Roadmap](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/roadmap1.png)
+![Roadmap](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/roadmap1.png)
+![Roadmap2](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/Roadmap.png)
