@@ -388,7 +388,16 @@ docker run -d -p 80:8000 axhse/farming-assistant-server
 === 
 
 ![SignUp](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/signup.jpg)
+
 ![SignIn](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/signin.jpg)
+
+![MainPge](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/mainpage.jpg)
+
+![WeatherPage](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/weather.png)
+
+![FieldsPage](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/fields.jpg)
+
+![SettingsPage](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/img/settings.jpg)
 
 Направления дальнейшей разработки
 === 
