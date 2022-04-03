@@ -37,8 +37,8 @@
 
 Инструкция по запуску приложения
 ---
-скачать и установить  
-[FarmingAssistant.apk  ](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/FarmingAssistant.apk)
+Cкачать и установить  [FarmingAssistant.apk  ](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/FarmingAssistant.apk)
+
 Запустить и радоваться!
 
 Инструкция по запуску сервера
@@ -57,7 +57,10 @@ docker run -d -p 80:8000 axhse/farming-assistant-server
 
 **Описание доменной области**
 ===
-[Про описание доменной области можно прочитать здесь](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/domain.md)
+
+Урожайность посевов сильно зависит от сроков посадки и сбора, поэтому мы разработали мобильное приложение для фермеров, которое поможет снизить потери урожая из-за погодных условий благодаря машиинному обучению.
+
+[Подробное описание доменной области можно прочитать здесь](https://github.com/Alena-Vasileva/FarmerCyberAssistant/blob/main/domain.md)
 
 Use Cases 
 ===
